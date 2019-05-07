@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import "assets/css/main.css";
+@import "assets/css/util.css";
+
+button:disabled{
+  cursor: not-allowed;
+}
+
+.form-error{
+  color: red;
+}
